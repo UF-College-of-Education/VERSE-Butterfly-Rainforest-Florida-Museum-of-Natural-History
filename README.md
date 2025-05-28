@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15538072.svg)](https://doi.org/10.5281/zenodo.15538072)
+
 # VERSE: Butterfly Rainforest - Florida Museum of Natural History
 
 ## About VERSE (Virtual Environments for Realistic Simulated Experiences)
