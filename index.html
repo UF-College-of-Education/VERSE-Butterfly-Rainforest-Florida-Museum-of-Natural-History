@@ -57,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/VERSE-HTML5.loader.js";
+      var loaderUrl = buildUrl + "/Verse-Butterfly-Html-3-12-26-streaming.loader.js";
       var config = {
-        dataUrl: buildUrl + "/VERSE-HTML5.data",
-        frameworkUrl: buildUrl + "/VERSE-HTML5.framework.js",
-        codeUrl: buildUrl + "/VERSE-HTML5.wasm",
+        dataUrl: buildUrl + "/Verse-Butterfly-Html-3-12-26-streaming.data",
+        frameworkUrl: buildUrl + "/Verse-Butterfly-Html-3-12-26-streaming.framework.js",
+        codeUrl: buildUrl + "/Verse-Butterfly-Html-3-12-26-streaming.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Uf",
+        companyName: "University of Florida",
         productName: "VERSE - Museum Expierence",
-        productVersion: "0.1",
+        productVersion: "0.6",
         showBanner: unityShowBanner,
       };
 
@@ -75,6 +75,15 @@
       // happening inside the engine, and you would instead like to size up
       // the canvas DOM size and WebGL render target sizes yourself.
       // config.matchWebGLToCanvasSize = false;
+
+      // If you would like all file writes inside Unity Application.persistentDataPath
+      // directory to automatically persist so that the contents are remembered when
+      // the user revisits the site the next time, uncomment the following line:
+      // config.autoSyncPersistentDataPath = true;
+      // This autosyncing is currently not the default behavior to avoid regressing
+      // existing user projects that might rely on the earlier manual
+      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+      // expected to change.
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
